@@ -1,2 +1,8 @@
-# cypress-e2e
-Automated end-to-end tests for a demo e-commerce site (e.g., https://www.saucedemo.com/), covering login, adding items to the cart, and checkout.
+## Setup
+- `npm install`
+- `npx cypress open`
+
+## Tests
+- `login.cy.js`: Validates login success and failure.
+- `cart.cy.js`: Tests adding and removing items from cart.
+- `checkout.cy.js`: Completes a checkout flow.
